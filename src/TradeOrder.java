@@ -114,15 +114,10 @@ public class TradeOrder extends JFrame implements ActionListener {
                 if (txtName1.getText().contentEquals("")) {
                     JOptionPane.showMessageDialog(null, "Please enter the company name.");
                 } else if (txtBalance.getText().contentEquals("")) {
-                    JOptionPane.showMessageDialog(null, "Please enter the minimum price.");
+                    JOptionPane.showMessageDialog(null, "Please enter your balance.");
                 } else {
                     frame.dispose();
                     TradePanel tradePanel = new TradePanel();
-
-
-
-
-
                 }
 
             }
